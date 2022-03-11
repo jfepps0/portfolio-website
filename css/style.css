@@ -1,4 +1,78 @@
-body {
-    background-color: lightgrey;
-}
-    
+  body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 1.6; 
+    color: #111111;
+  }
+  ul {
+      color: #006778;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #111111;
+    line-height: 1.4;
+  }
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.75em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25em;
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.75em;
+    font-weight: 700;
+  }
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.35em;
+    font-weight: 500;
+  }
+  a {
+    color: #006778;
+    text-decoration: none; 
+  }
+  a:hover {
+    color: #BC8200;
+    text-decoration: underline; 
+  }
+  a:visited { 
+    color: #ff7a7a;
+  }
+  a:active { 
+    color: #BC8200;
+  }
+  .button {
+    display: inline-block; 
+    background-color: #006778;
+    color: #ffffff; 
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #4d4d4d;
+    transition: 0.2s opacity;
+  }
+  .button:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  .button.contact {
+    background-color: transparent;
+    color: #006778;
+    text-transform: uppercase;
+    border: 2px solid #006778;
+  }
+/*
+Colors used:
+Primary Color (White): #FFFFFF;
+Secondary Color (Black): #111111;
+3rd Color (Teal): #006778
+4th Color (Gold): #BC8200
