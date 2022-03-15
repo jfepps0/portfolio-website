@@ -1,3 +1,19 @@
+header {
+    border-bottom: 3px solid #4a4a4a;
+    background-color: #111111;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    text-align: center;
+    position: relative;
+    box-shadow: #111111;
+  }
+selector {
+    margin: 0 auto;
+    position: relative;
+    float: right;
+  }
   body {
     background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -7,7 +23,7 @@
     color: #111111;
   }
   ul {
-      color: #006778;
+      color: #111111;
   }
   
   h1, h2, h3, h4 {
@@ -23,11 +39,11 @@
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2.25em;
-    font-weight: 500;
+    font-weight: 700;
   }
   
   h3 {
-    font-family: 'Fraunces', serif;
+    font-family: 'Poppins', serif;
     font-size: 1.75em;
     font-weight: 700;
   }
@@ -37,7 +53,7 @@
     font-weight: 500;
   }
   a {
-    color: #006778;
+    color: #616161;
     text-decoration: none; 
   }
   a:hover {
@@ -45,14 +61,14 @@
     text-decoration: underline; 
   }
   a:visited { 
-    color: #ff7a7a;
+    color: #616161;
   }
   a:active { 
     color: #BC8200;
   }
   .button {
     display: inline-block; 
-    background-color: #006778;
+    background-color: #111111;
     color: #ffffff; 
     font-weight: 400;
     padding: 10px;
@@ -69,4 +85,48 @@
     color: #006778;
     text-transform: uppercase;
     border: 2px solid #006778;
+  }
+  img {
+    width: 100%;
+  }
+  /* Layout styling */
+  .container {
+    padding: 0 15px;
+  }
+  .row {
+    margin: 25px 0;
+  }
+  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+  #hero h1 {
+    text-align: center;
+  }
+  #logo {
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+  }
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9e9e9e;
+  }
+  #hero {
+    background-color: #BC8200;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+  }
+  main {
+    padding-top: 0px;
+  }
+  #links {
+    width: 10%
   }
