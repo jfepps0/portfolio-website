@@ -47,6 +47,7 @@ selector {
     font-weight: 500;
   }
   h4 {
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     font-weight: 200;
@@ -132,8 +133,13 @@ selector {
   .row {
     margin: 25px 0;
   }
-  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+  #work1 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
   }
+  #work2 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+  }
+  #work3 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+  }
+  
   #hero h1 {
     color: #ffffff;
     text-align: center;
@@ -151,8 +157,7 @@ selector {
   nav > ul {
     list-style-type: none;
     padding: 0
-    margin: 0;
-  }
+    margin; }
   nav > ul > li > a {
     padding: 0 15px;
     text-transform: uppercase;
@@ -309,9 +314,4 @@ margin-right: auto;
 }
 #links {
 width: 5%
-}
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
-}
+}}
