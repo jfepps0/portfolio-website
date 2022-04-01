@@ -155,7 +155,7 @@ selector {
     display: inline-block;
     max-width: 600px;
     padding: 10px;
-    padding-left: 300px;
+    padding-left: 30px;
   }
   nav > ul {
     list-style-type: none;
@@ -265,10 +265,22 @@ Medium devices (640px and larger)
   nav > ul {
     margin: 1em 0;
   }
+  #mypic {
+    display: inline-block;
+    max-width: 600px;
+    padding: 10px;
+    padding-left: 300px;
+  }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+}
+#mypic {
+  display: inline-block;
+  max-width: 600px;
+  padding: 10px;
+  padding-left: 300px;
 }
 .container {
     max-width: 1200px;
