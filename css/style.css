@@ -37,7 +37,6 @@ selector {
   }
   
   h2 {
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 2.25em;
     font-weight: 700;
@@ -49,7 +48,6 @@ selector {
     font-weight: 500;
   }
   h4 {
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     font-weight: 200;
@@ -135,13 +133,8 @@ selector {
   .row {
     margin: 25px 0;
   }
-  #work1 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
   }
-  #work2 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
-  }
-  #work3 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
-  }
-  
   #hero h1 {
     color: #ffffff;
     text-align: center;
@@ -152,15 +145,14 @@ selector {
     padding: 10px;
   }
   #mypic {
-    display: inline-block;
+    display: inline-flex;
     max-width: 600px;
-    padding: 10px;
-    padding-left: 300px;
   }
   nav > ul {
     list-style-type: none;
     padding: 0
-    margin; }
+    margin: 0;
+  }
   nav > ul > li > a {
     padding: 0 15px;
     text-transform: uppercase;
@@ -206,6 +198,11 @@ selector {
   #contact {
     text-align: center;
   }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -265,6 +262,16 @@ Medium devices (640px and larger)
   nav > ul {
     margin: 1em 0;
   }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #mypic {
+    display: inline-flex;
+    max-width: 600px;
+    padding-left: 300px;
+  }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -317,4 +324,19 @@ margin-right: auto;
 }
 #links {
 width: 5%
-}}
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mypic {
+  display: inline-flex;
+  max-width: 600px;
+  padding-left: 300px;
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
